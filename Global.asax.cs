@@ -9,6 +9,7 @@ namespace ApplicationMaster
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        //Application Start
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
